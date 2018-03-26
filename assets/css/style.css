@@ -93,11 +93,16 @@ a {
 }
 
 .todo-input:focus {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
     background-color: #666666d4;
     outline-width: 0;
 }
 
 .ion-plus-circled {
+    display: flex;
     margin: 5px;
     transition: color .2s;
     font-size: 40px;
