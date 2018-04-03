@@ -140,6 +140,10 @@ a {
     margin: 20px 0px;
 }
 
+.checked {
+    text-decoration: line-through;
+}
+
 .not-found {
     display: flex;
     align-items: center;

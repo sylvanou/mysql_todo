@@ -33,7 +33,7 @@ module.exports = function (app, database) {
             task: req.body.task,
             date: moment().format('YYYY-MM-DD HH:mm:ss'),
             complete: false,
-            uid: `AKAIXR${Math.round(Math.random()*10+ 2000)}ESK`,
+            uid: `AKAIXR${Math.round(Math.random()*10 + 20000000000000)}ESK`,
             dueDate: moment().add(7, "days").format('YYYY-MM-DD HH:mm:ss')
         }
 
